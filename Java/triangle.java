@@ -1,7 +1,7 @@
 import java.util.Scanner;
-public class triangle{
+public class triangle {
     public static void main(String[] args) {
-        //-->start here
+        // -->start here
         float a, b, c;
         System.out.println("please type in the longest side of the triagle...");
         try {
@@ -28,8 +28,7 @@ public class triangle{
             System.out.print("the kind of triangle is ");
             if (a == b && b == c && a == c) {
                 System.out.println("regular triangle");
-            }
-            else if (c * c == a * a + b * b) {
+            } else if (c * c == a * a + b * b) {
                 if (a == b || b == c || c == a)
                     System.out.println("isosceles ");
                 System.out.println("right triangle");
@@ -38,14 +37,11 @@ public class triangle{
             } else
                 System.out.println("acute triangle");
 
-            
-            
         } catch (Exception e) {
             System.out.println("there might be some error");
         }
-        
-        //scan.close();
-        
-    
+
+        // scan.close();
+
     }
 }
