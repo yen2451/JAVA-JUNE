@@ -19,7 +19,6 @@ public class triangle {
                 c = scan.nextFloat();
                 System.out.println("\nthen the other two side are");
                 System.out.print("-->");
-
                 a = scan.nextFloat();
                 System.out.print("\n-->");
                 b = scan.nextFloat();
@@ -36,7 +35,6 @@ public class triangle {
                 System.out.println("obtuse triangle");
             } else
                 System.out.println("acute triangle");
-
         } catch (Exception e) {
             System.out.println("there might be some error");
         }
